@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@media only screen and (min-width: 701px)  {
+	body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	background-image: url("../images/background.jpg");
+}
+.Welkom {
+	display: block;
+}
+.WelkomM {
+	display: none;
+}
+.map {
+	display: block;
+}
+.mapM {
+	display: none;
+}
+.FooterTekst {
+	display: block;
+}
+.FooterTekstM {
+	display: none;
+}
+p {
+	color: #EE8200;
+	text-shadow: 4px 2px #000000;
+	font-size: 22px;
+}
+}
+
+@media only screen and (max-width: 700px)  {
+	body {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+	}
+	.Welkom {
+		display: none;
+	}
+	.WelkomM {
+		display: block;
+	}
+	.map {
+		display: none;
+	}
+	.mapM {
+		display: block;
+	}
+	.FooterTekst {
+		display: none;
+	}
+	.FooterTekstM {
+		display: block;
+	}
+}
+
+/* ------------------ Alle secties -------------------*/
+
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.SlideFoto{
+	display: none;
+}
+
+#Headerbalk {
+	background-image: url(../images/Header.jpg);
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 10vh;
+	z-index: 1;
+}
+
+#boven-nav{
+	width: 100vw;
+	margin-top: -7vh;
+	font-size: 25px;
+	z-index: 2;
+}
+
+#HeaderbalkM {
+	background-color: #0f438e;
+	width: 100vw;
+	height: 11vh;
+}
+
+#boven-navM {
+	width: 30vw;
+	margin-top: 5vh;
+	margin-left: 0vw;
+	font-size: 50px;
+	text-shadow: 2px 2px 4px #000000;
+	display: none;
+	z-index: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+	float: left;
+	margin-left: 6vw;
+	margin-right: 5vw;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+  width: 13vw;
+}
+a:link {
+	color:#44CC44;
+	text-shadow: 4px 2px #000000;
+}
+
+a:hover {
+	color: #EE8200;
+}
+
+::-webkit-scrollbar {
+	overflow: -moz-scrollbars-none;
+  display: none;
+}
+
+/* ------------------ Welkom -------------------*/
+
+#Home-Wiebenik {
+	margin-top: 10vh;
+	display: flex;
+}
+
+#Wiebenik{
+	width: 30vw;
+}
+
+.Welkom {
+	position: relative;
+	top: 10vh;
+	width: 40vw;
+}
+
+.WelkomM {
+	width: 30vw;
+	position: absolute;
+	top: 15vh;
+}
+
+.WelkomM {
+	position: relative;
+	width: 25vw;
+}
+
+.Slide {
+	width: 30vw;
+	height: auto;
+}
+
+.FotoMij {
+	width: 20vw;
+	height: 40vh;
+	border-radius: 25px;
+  border: 2px solid #EE8200;
+}
+
+/* ------------------ Assortiment -------------------*/
+
+.TitleSkills {
+	margin-top: 10vh;
+	padding-bottom: 5vh;
+	text-align: center;
+}
+
+.Categorie {
+	width: 30vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Fotos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Product {
+	height: 30vh;
+	width: 30vw;
+}
+
+/* ------------------ Projecten -------------------*/
+
+.TitleProjecten {
+	margin-top: 10vh;
+	padding-bottom: 5vh;
+	text-align: center;
+}
+
+.flex-container {
+  margin-top:3%;
+  margin-left:17%;
+  margin-right:15%;
+  display: flex;
+}
+
+#container-inhoud {
+  padding: 30px;
+}
+
+#item-inhoud {
+	margin-bottom: 5vh;
+}
+
+/* ------------------ Contact -------------------*/
+
+.TitleContact {
+	margin-top: 10vh;
+	padding-bottom: 5vh;
+	text-align: center;
+}
+
+#Contact {
+	display: flex;
+	flex-direction: row;
+}
+
+.FooterTekst {
+	width: 30vw;
+	position: relative;
+}
+
+.map {
+	width: 40vw;
+	height: 50vh;
+}
+
+.FooterTekstM {
+	width: 90vw;
+	position: absolute;
+	left: 10vw;
+	top: 225vh;
+}
+
+.mapM {
+	width: 90vw;
+	height: 50vh;
+}
