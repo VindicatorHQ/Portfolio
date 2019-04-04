@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @media only screen and (min-width: 701px)  {
 	body {
+	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-	background-image: url("../images/background.jpg");
+	background-color: #343538;
 }
 .Welkom {
 	display: block;
@@ -28,7 +29,13 @@
 p {
 	color: #EE8200;
 	text-shadow: 4px 2px #000000;
-	font-size: 22px;
+	font-size: 20px;
+}
+
+h1 {
+	color: #44CC44;
+	text-shadow: 6px 2px #000000;
+	font-size: 25px;
 }
 }
 
@@ -71,13 +78,28 @@ p {
 
 #Headerbalk {
 	background-image: url(../images/Header.jpg);
-	background-repeat: no-repeat;
 	width: 100vw;
 	height: 10vh;
+	border: 5px solid #000000;
+	z-index: 1;
+}
+
+#Footerbalk {
+	background-image: url(../images/Header.jpg);
+	width: 100vw;
+	height: 10vh;
+	border: 5px solid #000000;
 	z-index: 1;
 }
 
 #boven-nav{
+	width: 100vw;
+	margin-top: -7vh;
+	font-size: 25px;
+	z-index: 2;
+}
+
+#onder-nav{
 	width: 100vw;
 	margin-top: -7vh;
 	font-size: 25px;
@@ -125,13 +147,12 @@ a:hover {
 }
 
 ::-webkit-scrollbar {
-	overflow: -moz-scrollbars-none;
   display: none;
 }
 
 /* ------------------ Welkom -------------------*/
 
-#Home-Wiebenik {
+.Home-Wiebenik {
 	margin-top: 10vh;
 	display: flex;
 }
@@ -169,7 +190,7 @@ a:hover {
   border: 2px solid #EE8200;
 }
 
-/* ------------------ Assortiment -------------------*/
+/* ------------------ Skills -------------------*/
 
 .TitleSkills {
 	margin-top: 10vh;
@@ -178,9 +199,13 @@ a:hover {
 }
 
 .Categorie {
+	text-align: center;
 	width: 30vw;
 	display: flex;
 	flex-wrap: wrap;
+	border-radius: 25px;
+	border: 5px solid #000000;
+	background-color: #494a4c;
 }
 
 .Fotos {
@@ -206,15 +231,22 @@ a:hover {
   margin-left:17%;
   margin-right:15%;
   display: flex;
+	border-radius: 25px;
+	border: 5px solid #000000;
+	background-color: #494a4c;
+}
+
+.item {
+	border-radius: 25px;
+	width: 35vw;
+	height: 42vh;
 }
 
 #container-inhoud {
   padding: 30px;
 }
 
-#item-inhoud {
-	margin-bottom: 5vh;
-}
+
 
 /* ------------------ Contact -------------------*/
 
@@ -224,7 +256,18 @@ a:hover {
 	text-align: center;
 }
 
-#Contact {
+#TextBoxes {
+	padding-right: 10vw;
+	margin-bottom: 5vh;
+	color: #EE8200;
+	text-shadow: 4px 2px #000000;
+}
+
+.Contact {
+	width: 75vw;
+	border-radius: 25px;
+	border: 5px solid #000000;
+	background-color: #494a4c;
 	display: flex;
 	flex-direction: row;
 }
@@ -232,21 +275,13 @@ a:hover {
 .FooterTekst {
 	width: 30vw;
 	position: relative;
-}
-
-.map {
-	width: 40vw;
-	height: 50vh;
+	top: 10vh;
+	right: 5vw;
 }
 
 .FooterTekstM {
 	width: 90vw;
-	position: absolute;
+	position: relative;
 	left: 10vw;
 	top: 225vh;
-}
-
-.mapM {
-	width: 90vw;
-	height: 50vh;
 }
