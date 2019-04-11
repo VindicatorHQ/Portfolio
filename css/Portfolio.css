@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@media only screen and (min-width: 701px)  {
+@media only screen and (min-width: 800px)  {
 	body {
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
@@ -45,6 +45,10 @@ a:hover {
 	color: #EE8200;
 }
 
+a:visited {
+	color: #EE8200;
+	text-shadow: 4px 2px #000000;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -165,7 +169,7 @@ a:hover {
 	padding: 0px auto;
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 799px)  {
 	body {
 		font-family: 'Raleway', sans-serif;
 		font-weight: 600;
@@ -187,6 +191,7 @@ a:hover {
 		display: block;
 	  width: 13vw;
 	}
+
 	a:link {
 		color:#44CC44;
 		text-shadow: 4px 2px #000000;
@@ -194,6 +199,11 @@ a:hover {
 
 	a:hover {
 		color: #EE8200;
+	}
+
+	a:visited {
+		color: #EE8200;
+		text-shadow: 4px 2px #000000;
 	}
 
 	::-webkit-scrollbar {
