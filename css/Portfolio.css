@@ -8,24 +8,7 @@
 	font-size: 20px;
 	background-color: #343538;
 }
-.Welkom {
-	display: block;
-}
-.WelkomM {
-	display: none;
-}
-.map {
-	display: block;
-}
-.mapM {
-	display: none;
-}
-.FooterTekst {
-	display: block;
-}
-.FooterTekstM {
-	display: none;
-}
+
 p {
 	color: #EE8200;
 	text-shadow: 4px 2px #000000;
@@ -36,90 +19,6 @@ h1 {
 	color: #44CC44;
 	text-shadow: 6px 2px #000000;
 	font-size: 25px;
-}
-}
-
-@media only screen and (max-width: 700px)  {
-	body {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 600;
-		font-size: 16px;
-	}
-	.Welkom {
-		display: none;
-	}
-	.WelkomM {
-		display: block;
-	}
-	.map {
-		display: none;
-	}
-	.mapM {
-		display: block;
-	}
-	.FooterTekst {
-		display: none;
-	}
-	.FooterTekstM {
-		display: block;
-	}
-}
-
-/* ------------------ Alle secties -------------------*/
-
-* {
-	margin: 0px auto;
-	padding: 0px auto;
-}
-
-.SlideFoto{
-	display: none;
-}
-
-#Headerbalk {
-	background-image: url(../images/Header.jpg);
-	width: 100vw;
-	height: 10vh;
-	border: 5px solid #000000;
-	z-index: 1;
-}
-
-#Footerbalk {
-	background-image: url(../images/Header.jpg);
-	width: 100vw;
-	height: 10vh;
-	border: 5px solid #000000;
-	z-index: 1;
-}
-
-#boven-nav{
-	width: 100vw;
-	margin-top: -7vh;
-	font-size: 25px;
-	z-index: 2;
-}
-
-#onder-nav{
-	width: 100vw;
-	margin-top: -7vh;
-	font-size: 25px;
-	z-index: 2;
-}
-
-#HeaderbalkM {
-	background-color: #0f438e;
-	width: 100vw;
-	height: 11vh;
-}
-
-#boven-navM {
-	width: 30vw;
-	margin-top: 5vh;
-	margin-left: 0vw;
-	font-size: 50px;
-	text-shadow: 2px 2px 4px #000000;
-	display: none;
-	z-index: 1;
 }
 
 ul {
@@ -150,10 +49,37 @@ a:hover {
   display: none;
 }
 
-/* ------------------ Welkom -------------------*/
+#boven-nav{
+	width: 100vw;
+	margin-top: -7vh;
+	font-size: 25px;
+	z-index: 2;
+}
+
+#onder-nav{
+	width: 100vw;
+	margin-top: -7vh;
+	font-size: 25px;
+	z-index: 2;
+}
+
+#Headerbalk {
+	background-image: url(../images/Header.jpg);
+	width: 100vw;
+	height: 10vh;
+	border: 5px solid #000000;
+	z-index: 1;
+}
+
+#Footerbalk {
+	background-image: url(../images/Header.jpg);
+	width: 100vw;
+	height: 10vh;
+	border: 5px solid #000000;
+	z-index: 1;
+}
 
 .Home-Wiebenik {
-	margin-top: 10vh;
 	display: flex;
 }
 
@@ -161,41 +87,23 @@ a:hover {
 	width: 30vw;
 }
 
-.Welkom {
-	position: relative;
-	top: 10vh;
-	width: 40vw;
-}
-
-.WelkomM {
-	width: 30vw;
-	position: absolute;
-	top: 15vh;
-}
-
-.WelkomM {
-	position: relative;
-	width: 25vw;
-}
-
-.Slide {
-	width: 30vw;
-	height: auto;
-}
-
 .FotoMij {
+ 	margin-left: -90vw;
+	margin-top: 10vh;
 	width: 20vw;
 	height: 40vh;
 	border-radius: 25px;
   border: 2px solid #EE8200;
 }
 
-/* ------------------ Skills -------------------*/
+.Welkom {
+	margin-top: 20vh;
+	margin-left: -60vw;
+	width: 40vw;
+}
 
-.TitleSkills {
-	margin-top: 10vh;
-	padding-bottom: 5vh;
-	text-align: center;
+#Skills {
+	display: flex;
 }
 
 .Categorie {
@@ -208,14 +116,154 @@ a:hover {
 	background-color: #494a4c;
 }
 
+.FooterTekst {
+	display: block;
+}
+.FooterTekstM {
+	display: none;
+}
+
+
+}
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+}
+@media only screen and (max-width: 700px)  {
+	body {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+		background-color: #343538;
+	}
+	ul {
+	  list-style: none;
+	}
+
+	li {
+		float: left;
+		margin-left: 6vw;
+		margin-right: 5vw;
+	}
+
+	li a {
+		text-decoration: none;
+		display: block;
+	  width: 13vw;
+	}
+	a:link {
+		color:#44CC44;
+		text-shadow: 4px 2px #000000;
+	}
+
+	a:hover {
+		color: #EE8200;
+	}
+
+	::-webkit-scrollbar {
+	  display: none;
+	}
+
+	#boven-nav{
+		width: 100vw;
+		margin-top: -15vh;
+		padding-right: 15vw;
+		padding-bottom: 5%;
+		font-size: 20px;
+		z-index: 2;
+	}
+
+	#onder-nav{
+		width: 100vw;
+		margin-top: -15vh;
+		padding-right: 15vw;
+		padding-bottom: 5%;
+		font-size: 20px;
+		z-index: 2;
+	}
+
+	#Headerbalk {
+		background-image: url(../images/Header.jpg);
+		width: 100vw;
+		height: 15vh;
+		border: 5px solid #000000;
+		z-index: 1;
+	}
+
+	#Footerbalk {
+		background-image: url(../images/Header.jpg);
+		width: 100vw;
+		height: 15vh;
+		border: 5px solid #000000;
+		z-index: 1;
+	}
+
+	#Wiebenik{
+		width: 90vw;
+	}
+
+	.Welkom {
+		width: 90vw;
+		text-align: center;
+	}
+
+	.FotoMij {
+		width: 80vw;
+		height: 40vh;
+		margin-left: 5vw;
+		margin-top: 5vh;
+		border-radius: 25px;
+	  border: 2px solid #EE8200;
+	}
+
+	.FooterTekst {
+		display: none;
+	}
+	.FooterTekstM {
+		display: block;
+	}
+
+	.Categorie {
+		text-align: center;
+		width: 90vw;
+		margin: 5%;
+		display: flex;
+		flex-wrap: wrap;
+		border-radius: 25px;
+		border: 5px solid #000000;
+		background-color: #494a4c;
+	}
+
+	p {
+		color: #EE8200;
+		text-shadow: 4px 2px #000000;
+		font-size: 17px;
+	}
+
+	h1 {
+		color: #44CC44;
+		text-shadow: 6px 2px #000000;
+		font-size: 25px;
+	}
+}
+
+/* ------------------ Alle secties -------------------*/
+
+
+/* ------------------ Welkom -------------------*/
+
+
+/* ------------------ Skills -------------------*/
+
+.TitleSkills {
+	margin-top: 10vh;
+	padding-bottom: 5vh;
+	text-align: center;
+}
+
 .Fotos {
 	display: flex;
 	flex-wrap: wrap;
-}
-
-.Product {
-	height: 30vh;
-	width: 30vw;
 }
 
 /* ------------------ Projecten -------------------*/
